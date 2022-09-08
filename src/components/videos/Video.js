@@ -28,7 +28,7 @@ export default function Video({ video }) {
                     />
 
                     <div clas="flex flex-col">
-                        <Link to="/videos/1">
+                        <Link to={`/video/${id}`}>
                             <p className="text-slate-900 text-sm font-semibold">
                                 {title}
                             </p>
